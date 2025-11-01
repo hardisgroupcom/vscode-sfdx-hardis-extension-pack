@@ -1,0 +1,51 @@
+{
+  "name": "vscode-sfdx-hardis-extension-pack",
+  "displayName": "SFDX Hardis Extension Pack for Salesforce, by Cloudity",
+  "description": "A collection of popular extensions for Salesforce development including SFDX Hardis, Git Graph, YAML, CSV, and more",
+  "version": "1.0.0",
+  "publisher": "NicolasVuillamy",
+  "icon": "resources/sfdx-hardis-logo-square.png",
+  "galleryBanner": {
+    "color": "#1589ee",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "sfdx",
+    "salesforce",
+    "hardis",
+    "git",
+    "yaml",
+    "markdown",
+    "csv",
+    "devops",
+    "metadata",
+    "package"
+  ],
+  "extensionPack": [
+    "nicolasvuillamy.vscode-sfdx-hardis",
+    "mhutchie.git-graph",
+    "financialforce.lana",
+    "redhat.vscode-yaml",
+    "yzane.markdown-pdf",
+    "mushan.vscode-paste-image",
+    "mechatroner.rainbow-csv"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hardisgroupcom/vscode-sfdx-hardis-extension-pack.git"
+  },
+  "homepage": "https://github.com/hardisgroupcom/vscode-sfdx-hardis-extension-pack#readme",
+  "bugs": {
+    "url": "https://github.com/hardisgroupcom/vscode-sfdx-hardis-extension-pack/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "package": "vsce package"
+  }
+}

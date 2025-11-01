@@ -1,0 +1,56 @@
+name: Publish Extension
+
+on:
+  release:
+    types: [published]
+
+permissions: read-all
+
+jobs:
+  publish-vscode-marketplace:
+    name: Publish to VS Code Marketplace
+    runs-on: ubuntu-latest
+    permissions: read-all
+    environment:
+      name: release
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install vsce
+        run: npm install -g @vscode/vsce
+
+      - name: Publish to Visual Studio Marketplace
+        run: vsce publish -p ${{ secrets.VSCE_PAT }}
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+
+  publish-openvsx:
+    name: Publish to Open VSX Registry
+    runs-on: ubuntu-latest
+    permissions: read-all
+    environment:
+      name: release
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install ovsx
+        run: npm install -g ovsx
+
+      - name: Publish to Open VSX Registry
+        run: ovsx publish -p ${{ secrets.OVSX_PAT }}
+        env:
+          OVSX_PAT: ${{ secrets.OVSX_PAT }}
