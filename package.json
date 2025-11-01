@@ -1,0 +1,40 @@
+{
+  "name": "vscode-sfdx-hardis-extension-pack",
+  "displayName": "VsCode SFDX Hardis Extension Pack",
+  "description": "A collection of popular extensions for SFDX development including SFDX Hardis, Git Graph, YAML, CSV, and more",
+  "version": "1.0.0",
+  "publisher": "hardisgroupcom",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "sfdx",
+    "salesforce",
+    "hardis",
+    "git",
+    "yaml",
+    "markdown",
+    "csv"
+  ],
+  "extensionPack": [
+    "hardisgroup.sfdx-hardis",
+    "mhutchie.git-graph",
+    "chuckjonas.apex-log-analyzer",
+    "redhat.vscode-yaml",
+    "yzane.markdown-pdf",
+    "mushan.vscode-paste-image",
+    "mechatroner.rainbow-csv"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hardisgroupcom/vscode-sfdx-hardis-extension-pack.git"
+  },
+  "homepage": "https://github.com/hardisgroupcom/vscode-sfdx-hardis-extension-pack#readme",
+  "bugs": {
+    "url": "https://github.com/hardisgroupcom/vscode-sfdx-hardis-extension-pack/issues"
+  },
+  "license": "MIT"
+}
