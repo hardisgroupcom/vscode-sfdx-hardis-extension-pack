@@ -13,7 +13,7 @@ This extension pack includes the following high-quality extensions:
 - **[Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)** - View a Git Graph of your repository, and easily perform Git actions
 
 ### Debugging & Analysis
-- **[Apex Log Analyzer](https://marketplace.visualstudio.com/items?itemName=chuckjonas.apex-log-analyzer)** - Analyze Salesforce Apex logs with ease
+- **[Apex Log Analyzer](https://marketplace.visualstudio.com/items?itemName=financialforce.lana)** - Analyze Salesforce Apex logs with ease
 
 ### Configuration & Data
 - **[YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)** by Red Hat - YAML language support with built-in Kubernetes and JSON schema support

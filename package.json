@@ -22,7 +22,7 @@
   "extensionPack": [
     "hardisgroup.sfdx-hardis",
     "mhutchie.git-graph",
-    "chuckjonas.apex-log-analyzer",
+    "financialforce.lana",
     "redhat.vscode-yaml",
     "yzane.markdown-pdf",
     "mushan.vscode-paste-image",
