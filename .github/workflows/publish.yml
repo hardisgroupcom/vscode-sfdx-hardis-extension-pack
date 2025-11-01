@@ -4,10 +4,15 @@ on:
   release:
     types: [published]
 
+permissions: read-all
+
 jobs:
   publish-vscode-marketplace:
     name: Publish to VS Code Marketplace
     runs-on: ubuntu-latest
+    permissions: read-all
+    environment:
+      name: release
     
     steps:
       - name: Checkout code
@@ -16,7 +21,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '22'
 
       - name: Install vsce
         run: npm install -g @vscode/vsce
@@ -29,6 +34,9 @@ jobs:
   publish-openvsx:
     name: Publish to Open VSX Registry
     runs-on: ubuntu-latest
+    permissions: read-all
+    environment:
+      name: release
     
     steps:
       - name: Checkout code
@@ -37,7 +45,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '22'
 
       - name: Install ovsx
         run: npm install -g ovsx
