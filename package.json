@@ -20,7 +20,7 @@
     "csv"
   ],
   "extensionPack": [
-    "hardisgroup.sfdx-hardis",
+    "nicolasvuillamy.vscode-sfdx-hardis",
     "mhutchie.git-graph",
     "financialforce.lana",
     "redhat.vscode-yaml",

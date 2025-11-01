@@ -7,7 +7,7 @@ This extension pack includes a curated collection of popular extensions to enhan
 This extension pack includes the following high-quality extensions:
 
 ### SFDX Development
-- **[SFDX Hardis](https://marketplace.visualstudio.com/items?itemName=hardisgroup.sfdx-hardis)** - Powerful SFDX tooling for Salesforce development
+- **[SFDX Hardis](https://marketplace.visualstudio.com/items?itemName=nicolasvuillamy.vscode-sfdx-hardis)** - Powerful SFDX tooling for Salesforce development
 
 ### Source Control
 - **[Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)** - View a Git Graph of your repository, and easily perform Git actions
