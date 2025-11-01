@@ -1,3 +1,5 @@
+[![sfdx-hardis by Cloudity Banner](https://github.com/hardisgroupcom/sfdx-hardis/raw/main/docs/assets/images/sfdx-hardis-banner.png)](https://sfdx-hardis.cloudity.com)
+
 # VsCode SFDX Hardis Extension Pack
 
 This extension pack includes a curated collection of popular extensions to enhance your SFDX (Salesforce DX) development experience.
@@ -6,20 +8,25 @@ This extension pack includes a curated collection of popular extensions to enhan
 
 This extension pack includes the following high-quality extensions:
 
-### SFDX Development
-- **[SFDX Hardis](https://marketplace.visualstudio.com/items?itemName=nicolasvuillamy.vscode-sfdx-hardis)** - Powerful SFDX tooling for Salesforce development
+### Salesforce Development & Administration
+
+- **[SFDX Hardis](https://marketplace.visualstudio.com/items?itemName=nicolasvuillamy.vscode-sfdx-hardis)** - Powerful tooling for Salesforce development & admin
 
 ### Source Control
+
 - **[Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)** - View a Git Graph of your repository, and easily perform Git actions
 
 ### Debugging & Analysis
+
 - **[Apex Log Analyzer](https://marketplace.visualstudio.com/items?itemName=financialforce.lana)** - Analyze Salesforce Apex logs with ease
 
 ### Configuration & Data
+
 - **[YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)** by Red Hat - YAML language support with built-in Kubernetes and JSON schema support
 - **[Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)** - Highlight CSV and TSV files in different colors
 
 ### Documentation
+
 - **[Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)** - Convert Markdown files to PDF, HTML, PNG or JPEG
 - **[Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)** - Paste images directly into your Markdown files
 
@@ -38,7 +45,7 @@ All extensions in this pack have been selected based on:
 - High download counts and community adoption
 - Active maintenance and updates
 - Positive user reviews and ratings
-- Relevance to SFDX and general development workflows
+- Relevance to Salesforce and general development workflows
 
 ## Contributing
 
