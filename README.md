@@ -29,6 +29,7 @@ This extension pack includes the following high-quality extensions:
 
 - **[Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)** - Convert Markdown files to PDF, HTML, PNG or JPEG
 - **[Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)** - Paste images directly into your Markdown files
+- **[Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)** - Render Mermaid diagrams and flowcharts in VsCode preview of Markdown files
 
 ## Installation
 
