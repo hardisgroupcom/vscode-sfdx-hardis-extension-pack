@@ -34,7 +34,8 @@
     "redhat.vscode-yaml",
     "yzane.markdown-pdf",
     "mushan.vscode-paste-image",
-    "mechatroner.rainbow-csv"
+    "mechatroner.rainbow-csv",
+    "bierner.markdown-mermaid"
   ],
   "repository": {
     "type": "git",
