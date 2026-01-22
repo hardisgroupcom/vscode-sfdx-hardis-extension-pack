@@ -2,7 +2,7 @@
   "name": "vscode-sfdx-hardis-extension-pack",
   "displayName": "SFDX Hardis Extension Pack for Salesforce, by Cloudity",
   "description": "A collection of popular extensions for Salesforce development including SFDX Hardis, Git Graph, YAML, CSV, and more",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "NicolasVuillamy",
   "icon": "resources/sfdx-hardis-logo-square.png",
   "galleryBanner": {
